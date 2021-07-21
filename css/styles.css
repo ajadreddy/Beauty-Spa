@@ -1,0 +1,104 @@
+.bg-img{
+    background-image: url("pracimage8.png");
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    position: relative;
+}
+.skin{
+    font-size: 50px;
+    font-family: cursive;
+    padding: 200px;
+    color: rgb(161, 10, 103);
+}
+.topnav{
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+    color: #632650;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topnav a.active {
+    
+    color: rgb(143, 88, 126);
+}
+.sub {
+    color: white;
+    float: right;
+}
+.sub2{
+    float: right;
+}
+.topnav a:hover{
+    
+    transform: scale(1.05);
+}
+.time{
+    
+    background-color: rgb(236, 235, 235);
+    color: #632650;
+    padding: 1px 25px;
+}
+.service{
+    font-size: 40px;
+    text-align: center;
+    padding: 25px 25px;
+}
+.line{
+    text-align: center;
+}
+.img1{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 20px ;
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 20px;
+}
+.img3{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 20px;
+}
+.img4{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 20px;
+}
+.img5{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 20px;
+}
+.image{
+    display: flex;
+    padding: 90px;
+    background-color: rgb(240, 241, 241);
+}
+.book{
+    font-size: 40px;
+    text-align: center;
+    padding: 25px 25px;
+}
+.booking{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background: rgb(253, 222, 251);
+    color: rgb(37, 11, 25);
+    box-sizing: border-box;
+}
+.abc{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
