@@ -164,6 +164,10 @@
           dots[slideIndex-1].className += " active";
           setTimeout(showSlides, 3000); // Change image every 3 seconds
         }
+          function fn1()
+        {
+            document.getElementById("paragraph1").innerHTML="Booking Done..Our Team will contact you shortly!!";   
+        }
         </script>
       
       
@@ -224,7 +228,7 @@
                 <input type="text" name="mail" style="border-radius: 2px;"><br>
                 SERVICE:<br>
                 <input type="text" name="comment" required style="border-radius: 2px;"><br>
-                <input class="book2" type="submit" value="BOOK" style="
+                <input id="btn1" onclick="fn1()" class="book2" type="submit" value="BOOK" style="
                 background-color: rgb(196 196 196);
                 padding-top: 0px;
                 margin-top: 5px;
@@ -232,7 +236,7 @@
                 padding-right: 10px;
                 
                 ">
-                <p>OUR TEAM WILL CONTACT YOU SHORTLY!</p>
+                <p id="paragraph1"></p>
             </form>
         </div>    
     </div>
