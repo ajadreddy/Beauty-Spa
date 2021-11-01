@@ -16,14 +16,13 @@ body{
 }
 
 .topnav{
+    box-shadow: 0 2px 2px 1px rgba(43, 41, 41, 0.2);
     display: flex;
     position: fixed;
     top: 0px;
     width: 100%;
-    
     flex-wrap: wrap;
     z-index: 1;
-    
     background-color: rgb(255, 255, 255) !important;
 }
 .topnav a{
@@ -35,10 +34,10 @@ body{
     font-size: 20px;
 }
 .topnav a.active {
-    
     color: rgb(143, 88, 126);
 }
 .sub {
+    padding-left: 450px;
     color: white;
     float: right;
 }
@@ -46,8 +45,9 @@ body{
     float: right;
 }
 .topnav a:hover{
+    background-color: antiquewhite;
     
-    transform: scale(1.05);
+    transform: scale(1.001);
     color: rgb(98, 27, 110);
 }
 .time{
